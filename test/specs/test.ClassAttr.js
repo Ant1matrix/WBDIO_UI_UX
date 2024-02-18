@@ -16,9 +16,7 @@ describe('should select and click the correct button using class attributes', ()
             }, {timeout: 3000}
         );
 
-        const isAlrtOpen = await browser.isAlertOpen();
-
-        if (isAlrtOpen === true) {
+        if ((await browser.isAlertOpen()) === true) {
             await browser.acceptAlert();
         };
     });
