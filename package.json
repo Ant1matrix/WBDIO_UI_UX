@@ -9,5 +9,8 @@
   },
   "scripts": {
     "wdio": "wdio run ./wdio.conf.js"
+  },
+  "dependencies": {
+    "chromedriver": "^121.0.2"
   }
 }

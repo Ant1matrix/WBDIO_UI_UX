@@ -51,7 +51,8 @@ export const config = {
     //
     capabilities: [{
         // capabilities for local browser web tests
-        browserName: 'chrome' // or "firefox", "microsoftedge", "safari"
+        browserName: 'chrome',
+        browserVersion: '122.0.6261.39' // or "firefox", "microsoftedge", "safari"
     }],
 
     //
